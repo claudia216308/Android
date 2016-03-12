@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_inscription">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Vous êtes : "
+        />
+
+    <RadioGroup
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkedButton="@+id/radio1"
+        android:orientation="horizontal"
+        >
+        <RadioButton
+            android:id="@+id/humain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Humain"
+            android:layout_gravity="top" />
+        <RadioButton
+            android:id="@+id/superheros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Super Héros"
+            android:layout_gravity="top" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Prénom : "
+        />
+    <EditText
+        android:id="@+id/prenomInscription"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Prénom"
+        android:inputType="text"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Nom : "
+        />
+    <EditText
+        android:id="@+id/nomInscription"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nom"
+        android:inputType="text"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Adresse e-mail : "
+        />
+    <EditText
+        android:id="@+id/emailInscription"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Adresse mail"
+        android:inputType="textEmailAddress"
+        />
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Mot de passe : "
+        />
+    <EditText
+        android:id="@+id/mdpInscription"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mot de Passe"
+        android:inputType="textPassword"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirmation: "
+        />
+    <EditText
+        android:id="@+id/mdpConfirmation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirmation du mot de passse "
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/inscription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inscription"
+        />
+
+</LinearLayout>

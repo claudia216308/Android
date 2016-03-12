@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Authentification</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_inscription">InscriptionActivity</string>
+
+    <!-- URL des fichiers PHP qui permettent de se connecter à la base de données -->
+    <string name="URL_CONNEXION_PHP">http://192.168.0.13:8888/superAuthentification/UTILISATEUR/ParamConnexion.php</string>
+    <string name="URL_INSCRIPTION_PHP">http://192.168.0.13:8888/superAuthentification/UTILISATEUR/AjoutUtilisateur.php</string>
+
+
+</resources>
