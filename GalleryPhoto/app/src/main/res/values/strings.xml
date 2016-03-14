@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GalleryPhoto</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="URL_PHP">http://192.168.0.13:8888/upload.php</string>
+
+</resources>
