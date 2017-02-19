@@ -1,0 +1,1 @@
+Cette application permet de stocker des données utilisateurs dans SQLite et de les récupérer en faisant une requête SQL sur cette base. 
