@@ -158,7 +158,7 @@ public class MainActivity extends AppCompatActivity {
                 FileInputStream fileInputStream = new FileInputStream(sourceFile);
 
                 //URL du fichier PHP
-                upLoadServerUri = getString(R.string.URL_PHP);
+                upLoadServerUri = getString(R.string.URL_PHP);  //remplacer par l'url du serveur
                 URL url = new URL(upLoadServerUri);
 
                 // Connexion avec le serveur

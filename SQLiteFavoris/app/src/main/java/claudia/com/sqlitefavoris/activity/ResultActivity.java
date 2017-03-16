@@ -21,7 +21,6 @@ public class ResultActivity extends AppCompatActivity {
 
         //récupération du favoris
         DAOFavoris db = new DAOFavoris(getApplicationContext());
-
         db.open();
 
         Favoris fav  = db.selectionner();

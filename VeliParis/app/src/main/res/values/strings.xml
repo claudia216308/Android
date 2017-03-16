@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">VeliParis</string>
+    <string name="title_activity_login">Connexion</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+
+    <!-- URL des fichiers PHP qui permettent de se connecter à la base de données -->
+    <string name="URL_CONNEXION_PHP">http://192.168.0.13:8888/veliParis/UTILISATEUR/ParamConnexion.php</string>
+    <string name="URL_INSCRIPTION_PHP">http://192.168.0.13:8888/veliParis/UTILISATEUR/AjoutUtilisateur.php</string>
+
+    <!--url fichier php upload photo vers le serveur -->
+    <string name="URL_PHP">http://192.168.0.13:8888/upload.php</string>
+
+
+    <!-- GUIDE -->
+    <string name="next">Suivant</string>
+    <string name="skip">Passer</string>
+    <string name="start">Terminé</string>
+    <string name="title_activity_add_photo">AddPhotoActivity</string>
+    <string name="title_activity_photo">PhotoActivity</string>
+    <string name="title_activity_config">ConfigActivity</string>
+    <string name="title_activity_favoris">Favoris</string>
+
+</resources>

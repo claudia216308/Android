@@ -27,7 +27,7 @@ public class DataBaseHandler  extends SQLiteOpenHelper {
                     FAVORIS_COULEUR + " TEXT); " ;
 
 
-    public static final String METIER_TABLE_DROP = "DROP TABLE IF EXISTS " + FAVORIS_TABLE_NAME + ";";
+    public static final String FAVORIS_TABLE_DROP = "DROP TABLE IF EXISTS " + FAVORIS_TABLE_NAME + ";";
 
     /**
      * Constructeur
@@ -60,7 +60,7 @@ public class DataBaseHandler  extends SQLiteOpenHelper {
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
             //requête pour supprimer l'ancienne base
-            db.execSQL(METIER_TABLE_DROP);
+            db.execSQL(FAVORIS_TABLE_DROP);
 
             onCreate(db);  //pour créer la nouvelle base
     }
